@@ -10,9 +10,9 @@ export const Profile = () => {
     </div>
 
     <ul className='TabNav'>
-      <li>Daily</li>
-      <li>Weekly</li>
-      <li>Monthly</li>
+      <li><button>Daily</button></li>
+      <li><button>Weekly</button></li>
+      <li><button>Monthly</button></li>
     </ul>
     </div>
   )
