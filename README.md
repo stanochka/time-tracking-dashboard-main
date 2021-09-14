@@ -28,7 +28,7 @@ Users should be able to:
 ## Links
 
 - Solution URL: [Link](https://github.com/stanochka/time-tracking-dashboard-main)
-- Live Site URL: [Link](https://your-live-site-url.com)
+- Live Site URL: [Link](https://compassionate-kepler-7158e6.netlify.app)
 
 
 ## Built with
