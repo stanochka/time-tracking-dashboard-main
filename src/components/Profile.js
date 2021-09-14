@@ -1,6 +1,6 @@
 import avatar from '../images/image-jeremy.png';
 
-export const Profile = props => {
+export const Profile = ({ changeTab, tab }) => {
   return (
     <div className='Profile'>
       <div className='MainProfile'>
@@ -11,9 +11,15 @@ export const Profile = props => {
         </div>
       </div>
       <ul className='TabNav'>
-        <li><button id='daily' onClick={props.changeTab}>Daily</button></li>
-        <li><button id='weekly' onClick={props.changeTab}>Weekly</button></li>
-        <li><button id='monthly' onClick={props.changeTab}>Monthly</button></li>
+        <li><button className={tab == 'daily' ? 'active' : 'base'}
+                    id='daily'
+                    onClick={changeTab}>Daily</button></li>
+        <li><button className={tab == 'weekly' ? 'active' : 'base'}
+                    id='weekly'
+                    onClick={changeTab}>Weekly</button></li>
+        <li><button className={tab == 'monthly' ? 'active' : 'base'}
+                    id='monthly'
+                    onClick={changeTab}>Monthly</button></li>
       </ul>
     </div>
   )

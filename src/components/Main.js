@@ -7,7 +7,6 @@ export const Main = () => {
 
   const changeTab = (e) => {
     setTab(e.target.id);
-    console.log(e.target.id);
   }
 
   return (

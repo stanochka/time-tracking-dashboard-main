@@ -73,13 +73,20 @@ main {
   margin: 0;
   border: none;
   cursor: pointer;
-  color: hsl(235, 45%, 61%);
   font-weight: 300;
   font-size: 16px;
 }
 
 .TabNav button:hover {
   color: white;
+}
+
+.active {
+  color: white;
+}
+
+.base {
+  color: hsl(235, 45%, 61%);
 }
 
 .Details {
