@@ -202,3 +202,68 @@ footer a {
   font-weight: bold;
   color: hsl(235, 45%, 61%);
 }
+
+@media screen and (max-width: 375px) {
+  main {
+    flex-direction: column;
+  }
+
+  .Details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 65px;
+  }
+
+  .Profile {
+    margin-top: 80px;
+    width: 300px;
+    height: 180px;
+  }
+
+  .MainProfile {
+    height: 70px;
+    display: flex;
+    padding: 25px;
+  }
+
+  .TabNav {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+  }
+
+  .ProfileText {
+    margin-left: 20px;
+  }
+
+  .MainProfile h1 {
+    font-size: 1.3em;
+  }
+
+  .Card {
+    width: 300px;
+    height: 160px;
+  }
+
+  .ContentWrapper {
+    width: 100%;
+    height: 120px;
+  }
+
+  .timeframe {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .mainTime {
+    font-size: 32px;
+    margin: 0 20px;
+  }
+
+  .previousTime {
+    margin: 0 30px;
+  }
+
+
+}
