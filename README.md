@@ -27,7 +27,7 @@ Users should be able to:
 
 ## Links
 
-- Solution URL: [Link](https://your-solution-url.com)
+- Solution URL: [Link](https://github.com/stanochka/time-tracking-dashboard-main)
 - Live Site URL: [Link](https://your-live-site-url.com)
 
 

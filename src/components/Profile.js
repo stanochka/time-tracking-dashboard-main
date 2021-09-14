@@ -11,13 +11,13 @@ export const Profile = ({ changeTab, tab }) => {
         </div>
       </div>
       <ul className='TabNav'>
-        <li><button className={tab == 'daily' ? 'active' : 'base'}
+        <li><button className={tab === 'daily' ? 'active' : 'base'}
                     id='daily'
                     onClick={changeTab}>Daily</button></li>
-        <li><button className={tab == 'weekly' ? 'active' : 'base'}
+        <li><button className={tab === 'weekly' ? 'active' : 'base'}
                     id='weekly'
                     onClick={changeTab}>Weekly</button></li>
-        <li><button className={tab == 'monthly' ? 'active' : 'base'}
+        <li><button className={tab === 'monthly' ? 'active' : 'base'}
                     id='monthly'
                     onClick={changeTab}>Monthly</button></li>
       </ul>
