@@ -1,11 +1,19 @@
+import { useState } from 'react';
 import { Profile } from './Profile';
-import { Details } from './Details'; 
+import { Details } from './Details';
 
 export const Main = () => {
+  const [tab, setTab] = useState('daily');
+
+  const changeTab = (e) => {
+    setTab(e.target.id);
+    console.log(e.target.id);
+  }
+
   return (
     <main>
-      <Profile />
-      <Details />
+      <Profile changeTab={changeTab} tab={tab} />
+      <Details tab={tab} />
     </main>
   )
 }

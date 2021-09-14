@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Card } from './Card';
 
-export const Details = () => {
+export const Details = ({tab}) => {
   const [data, setData] = useState([]);
 
   useEffect(() => {
@@ -14,7 +14,8 @@ export const Details = () => {
     <div className='Details'>
       {data.map(item => <Card key={item.title}
                               title={item.title}
-                              timeframes={item.timeframes} />)}
+                              timeframes={item.timeframes}
+                              tab={tab} />)}
     </div>
   )
 }

@@ -185,6 +185,7 @@ main {
 
 .previousTime {
   font-size: 14px;
+  font-weight: 300;
   color: hsl(236, 100%, 87%);
   margin: 7px 20px;
 }
